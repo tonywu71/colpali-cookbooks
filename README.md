@@ -1,14 +1,18 @@
 # ColPali Cookbooks 👀
 
 [![GitHub](https://img.shields.io/badge/ColPali_Cookbooks-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tonywu71/colpali-cookbooks)
-[![X](https://img.shields.io/badge/Thread-%23000000?style=for-the-badge&logo=X&logoColor=white)](https://x.com/tonywu_71/status/1809183824464560138)
-
 [![arXiv](https://img.shields.io/badge/arXiv-2407.01449-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2407.01449)
 [![Hugging Face](https://img.shields.io/badge/Vidore-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/vidore)
-[![GitHub](https://img.shields.io/badge/ColPali_Engine-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/illuin-tech/colpali)
-[![GitHub](https://img.shields.io/badge/ViDoRe_Benchmark-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/illuin-tech/vidore-benchmark)
+[![X](https://img.shields.io/badge/Thread-%23000000?style=for-the-badge&logo=X&logoColor=white)](https://x.com/tonywu_71/status/1809183824464560138)
 
-Recipes for learning, fine-tuning, and adapting ColPali to your multimodal RAG use cases.
+[[ColPali Engine]](https://github.com/illuin-tech/colpali)
+[[ViDoRe Benchmark]](https://github.com/illuin-tech/vidore-benchmark)
+
+## Introduction
+
+With our new model *ColPali*, we propose to leverage VLMs to construct efficient multi-vector embeddings in the visual space for document retrieval. By feeding the ViT output patches from PaliGemma-3B to a linear projection, we create a multi-vector representation of documents. We train the model to maximize the similarity between these document embeddings and the query embeddings, following the ColBERT method.
+
+This repository contains notebooks for learning, fine-tuning, and adapting ColPali to your multimodal RAG use cases.
 
 ## Instructions
 
@@ -23,3 +27,21 @@ This will open the notebook in Google Colab, where you can run the code and expe
 ### Run locally
 
 If you prefer to run the notebooks locally, you can clone the repository and open the notebooks in Jupyter Notebook or in your IDE.
+
+## Citation
+
+**ColPali: Efficient Document Retrieval with Vision Language Models**  
+
+Authors: **Manuel Faysse**\*, **Hugues Sibille**\*, **Tony Wu**\*, Bilel Omrani, Gautier Viaud, Céline Hudelot, Pierre Colombo (\* denotes equal contribution)
+
+```latex
+@misc{faysse2024colpaliefficientdocumentretrieval,
+      title={ColPali: Efficient Document Retrieval with Vision Language Models}, 
+      author={Manuel Faysse and Hugues Sibille and Tony Wu and Bilel Omrani and Gautier Viaud and Céline Hudelot and Pierre Colombo},
+      year={2024},
+      eprint={2407.01449},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2407.01449}, 
+}
+```
