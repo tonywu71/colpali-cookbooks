@@ -14,6 +14,11 @@ With our new model *ColPali*, we propose to leverage VLMs to construct efficient
 
 This repository contains notebooks for learning, fine-tuning, and adapting ColPali to your multimodal RAG use cases.
 
+|                  | Notebook                                                     | Description                                                  |
+| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Interpretability | [ColPali: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/b7a0798cbb8e4f1f6223f9c3b7dac2172b1b6ce1/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
+| Fine-tuning      | Coming soon!                                                 |                                                              |
+
 ## Instructions
 
 ### Open with Colab
