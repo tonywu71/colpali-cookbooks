@@ -1,6 +1,9 @@
 # Custom
 .DS_Store
-examples/data/
+/data/
+/examples/checkpoints/
+/examples/data/
+/examples/wandb/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
