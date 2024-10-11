@@ -2,7 +2,6 @@
 .DS_Store
 /data/
 /examples/checkpoints/
-/examples/data/
 /examples/wandb/
 
 # Byte-compiled / optimized / DLL files
