@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## Unreleased
+
+### Added
+
+- Use `colpali-engine` dep in the similarity map notebook
+
 ## [0.1.0] - 2024-10-11 - Initial Release
 
 - Add similarity map generation notebook for ColPali
