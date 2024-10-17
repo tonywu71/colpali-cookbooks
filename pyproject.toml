@@ -26,11 +26,10 @@ classifiers = [
 ]
 
 dependencies = [
-    "colpali-engine[train]>=0.3.0,<0.4.0",
-    "datasets",
+    "colpali-engine[interpretability,train]>=0.3.2,<0.4.0",
+    "datasets>=3.0.1,<4.0.0",
     "huggingface_hub",
     "ipykernel",
-    "vidore-benchmark[interpretability]>=4.0.0,<5.0.0",
 ]
 
 [project.optional-dependencies]
