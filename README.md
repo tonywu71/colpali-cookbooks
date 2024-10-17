@@ -1,4 +1,4 @@
-# ColPali Cookbooks 👀
+# ColPali Cookbooks 👨🏻‍🍳
 
 [![GitHub](https://img.shields.io/badge/ColPali_Cookbooks-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tonywu71/colpali-cookbooks)
 [![arXiv](https://img.shields.io/badge/arXiv-2407.01449-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2407.01449)
@@ -16,9 +16,10 @@ Using ColPali removes the need for potentially complex and brittle layout recogn
 
 This repository contains notebooks for learning, fine-tuning, and adapting ColPali to your multimodal RAG use cases.
 
-|                  | Notebook                                                     | Description                                                  |
+| Task             | Notebook                                                     | Description                                                  |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Interpretability | [ColPali: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
+| Interpretability | [ColQwen2: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColQwen2's predictions. |
 | Fine-tuning      | [Fine-tune ColPali](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb) | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization. |
 
 ## Instructions
