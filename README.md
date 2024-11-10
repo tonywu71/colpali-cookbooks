@@ -16,11 +16,12 @@ Using ColPali removes the need for potentially complex and brittle layout recogn
 
 This repository contains notebooks for learning, fine-tuning, and adapting ColPali to your multimodal RAG use cases.
 
-| Task             | Notebook                                                     | Description                                                  |
-| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Interpretability | [ColPali: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
-| Interpretability | [ColQwen2: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColQwen2's predictions. |
-| Fine-tuning      | [Fine-tune ColPali](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb) | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization. |
+| Task                        | Notebook                                                     | Description                                                  |
+| --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Interpretability            | [ColPali: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
+| Interpretability            | [ColQwen2: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColQwen2's predictions. |
+| Fine-tuning                 | [Fine-tune ColPali](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb) | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization. |
+| Inference, interpretability | [Use the native ColPali model implementation from Transformers 🤗](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/use_native_colpali_from_transformers.ipynb) | Use the `transformers` implementation of ColPali for inference, scoring, and interpretability. |
 
 ## Instructions
 
