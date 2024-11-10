@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.2.1] - 2024-11-11
+
+### Changed
+
+- Load example image from Git URL if no image path is provided in similarity map cookbooks
+
+### Fixed
+
+- Add missing `interpretability` optional deps for similarity map cookbooks
+
 ## [0.2.0] - 2024-10-12
 
 ### Added
