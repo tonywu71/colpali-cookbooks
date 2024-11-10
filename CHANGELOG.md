@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [Unreleased]
+
+### Added
+
+- Add cookbook for using the native ColPali model implementation from `transformers`
+
 ## [0.2.1] - 2024-11-11
 
 ### Changed
@@ -22,7 +28,7 @@ and this project adheres to [Semantic Versioning].
 - Add a similarity map generation notebook for ColQwen2
 - Use `colpali-engine>=0.3.2` instead of `vidore-benchmark` in the ColPali similarity map notebook
 
-## Changed
+### Changed
 
 - Improve the similarity map generation notebook for ColPali
 
