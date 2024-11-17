@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
-## [Unreleased]
+## [0.3.0] - 2024-11-17
 
 ### Added
 
@@ -28,11 +28,13 @@ and this project adheres to [Semantic Versioning].
 - Add a similarity map generation notebook for ColQwen2
 - Use `colpali-engine>=0.3.2` instead of `vidore-benchmark` in the ColPali similarity map notebook
 
-## Changed
+### Changed
 
 - Improve the similarity map generation notebook for ColPali
 
 ## [0.1.0] - 2024-10-11 - Initial Release
+
+### Added
 
 - Add similarity map generation notebook for ColPali
 - Add fine-tuning notebook for ColPali
