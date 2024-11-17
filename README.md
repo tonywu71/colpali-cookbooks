@@ -18,10 +18,10 @@ This repository contains notebooks for learning about the ColVision family of mo
 
 | Task             | Notebook                                                     | Description                                                  |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Interpretability | [ColPali: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
-| Interpretability | [ColQwen2: Generate your own similarity maps](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColQwen2's predictions. |
-| Fine-tuning      | [Fine-tune ColPali](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb) | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization. |
-| RAG              | [ColQwen2: One model for your whole RAG pipeline with adapter hot-swapping 🔥](https://colab.research.google.com/github/tonywu71/colpali-cookbooks/blob/main/examples/run_e2e_rag_colqwen2_with_adapter_hot_swapping.ipynb) | Save VRAM by using a VLM for your entire RAG pipeline.       |
+| Interpretability | [ColPali: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
+| Fine-tuning      | [Fine-tune ColPali 🛠️](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb) | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization. |
+| Interpretability | [ColQwen2: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColQwen2's predictions. |
+| RAG              | [ColQwen2: One model for your whole RAG pipeline with adapter hot-swapping 🔥](https://colab.research.google.com/github/tonywu71/colpali-cookbooks/blob/main/examples/run_e2e_rag_colqwen2_with_adapter_hot_swapping.ipynb) | Save VRAM by using an unique VLM for your entire RAG pipeline. |
 
 ## Instructions
 
