@@ -21,7 +21,7 @@ This repository contains notebooks for learning about the ColVision family of mo
 | Interpretability | [ColPali: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColPali's predictions. |
 | Fine-tuning      | [Fine-tune ColPali 🛠️](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb) | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization. |
 | Interpretability | [ColQwen2: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb) | Generate your own similarity maps to interpret ColQwen2's predictions. |
-| RAG              | [ColQwen2: One model for your whole RAG pipeline with adapter hot-swapping 🔥](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/run_e2e_rag_colqwen2_with_adapter_hot_swapping.ipynb) | Save VRAM by using an unique VLM for your entire RAG pipeline. |
+| RAG              | [ColQwen2: One model for your whole RAG pipeline with adapter hot-swapping 🔥](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/run_e2e_rag_colqwen2_with_adapter_hot_swapping.ipynb) | Save VRAM by using a unique VLM for your entire RAG pipeline. Works even on Colab's free T4 GPU! |
 
 ## Instructions
 
