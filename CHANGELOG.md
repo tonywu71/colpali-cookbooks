@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.3.1] - 2024-11-17
+
+### Changed
+
+- Change the example query in the E2E RAG cookbook
+
 ## [0.3.0] - 2024-11-17
 
 ### Added
