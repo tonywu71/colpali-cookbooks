@@ -14,7 +14,7 @@ With our new model *ColPali*, we propose to leverage VLMs to construct efficient
 
 Using ColPali removes the need for potentially complex and brittle layout recognition and OCR pipelines with a single model that can take into account both the textual and visual content (layout, charts, ...) of a document.
 
-This repository contains notebooks for learning, fine-tuning, and adapting ColPali and the other ColVision models to your multimodal RAG use cases.
+This repository contains notebooks for learning about the ColVision family of models, fine-tuning them for your specific use case, creating similarity maps to interpret their predictions, and more! 😍
 
 | Task             | Notebook                                                     | Description                                                  |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
