@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [Unreleased]
+
+### Added
+
+- Add cookbook for using the 🤗 transformers-native implementation of ColPali
+
 ## [0.3.1] - 2024-11-17
 
 ### Changed
