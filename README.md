@@ -10,19 +10,22 @@
 
 ## Introduction
 
-With our new model *ColPali*, we propose to leverage VLMs to construct efficient multi-vector embeddings in the visual space for document retrieval. By feeding the ViT output patches from PaliGemma-3B to a linear projection, we create a multi-vector representation of documents. We train the model to maximize the similarity between these document embeddings and the query embeddings, following the ColBERT method.
-
-Using ColPali removes the need for potentially complex and brittle layout recognition and OCR pipelines with a single model that can take into account both the textual and visual content (layout, charts, ...) of a document.
+[ColPali](https://huggingface.co/papers/2407.01449) is a model designed to retrieve documents by analyzing their visual features. Unlike traditional systems that rely heavily on text extraction and OCR, ColPali treats each page as an image. It uses [Paligemma-3B](./paligemma) to capture not only text, but also the layout, tables, charts, and other visual elements to create detailed multi-vector embeddings that can be used for retrieval by computing pairwise late interaction similarity scores. This offers a more comprehensive understanding of documents and enables more efficient and accurate retrieval.
 
 This repository contains notebooks for learning about the ColVision family of models, fine-tuning them for your specific use case, creating similarity maps to interpret their predictions, and more! 😍
 
+## Table of Contents
+
+You can find the cookbooks in the [`examples`](https://github.com/tonywu71/colpali-cookbooks/tree/main/examples) directory. In the table below, they are listed from most recent to oldest.
+
 | Task                        | Notebook                                                                                                                                                                                              | Description                                                                                            |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Inference, interpretability | [Use the 🤗 transformers-native ColQwen2](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/use_transformers_native_colqwen2.ipynb)                                                      | Use the 🤗 transformers-native implementation of ColQwen2 for inference, scoring, and interpretability. |
+| Inference, interpretability | [Use the 🤗 transformers-native ColPali](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/use_transformers_native_colpali.ipynb)                                                      | Use the 🤗 transformers-native implementation of ColPali for inference, scoring, and interpretability. |
+| RAG                         | [ColQwen2: One model for your whole RAG pipeline with adapter hot-swapping 🔥](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/run_e2e_rag_colqwen2_with_adapter_hot_swapping.ipynb) | Save VRAM by using a unique VLM for your entire RAG pipeline. Works even on Colab's free T4 GPU!       |
+| Interpretability            | [ColQwen2: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb)                                                 | Generate your own similarity maps to interpret ColQwen2's predictions.                                 |
 | Interpretability            | [ColPali: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colpali_similarity_maps.ipynb)                                                   | Generate your own similarity maps to interpret ColPali's predictions.                                  |
 | Fine-tuning                 | [Fine-tune ColPali 🛠️](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/finetune_colpali.ipynb)                                                                                      | Fine-tune ColPali using LoRA and optional 4bit/8bit quantization.                                      |
-| Interpretability            | [ColQwen2: Generate your own similarity maps 👀](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/gen_colqwen2_similarity_maps.ipynb)                                                 | Generate your own similarity maps to interpret ColQwen2's predictions.                                 |
-| RAG                         | [ColQwen2: One model for your whole RAG pipeline with adapter hot-swapping 🔥](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/run_e2e_rag_colqwen2_with_adapter_hot_swapping.ipynb) | Save VRAM by using a unique VLM for your entire RAG pipeline. Works even on Colab's free T4 GPU!       |
-| Inference, interpretability | [Use the 🤗 transformers-native ColPali](https://github.com/tonywu71/colpali-cookbooks/blob/main/examples/use_transformers_native_colpali.ipynb)                                                      | Use the 🤗 transformers-native implementation of ColPali for inference, scoring, and interpretability. |
 
 ## Instructions
 
